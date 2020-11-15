@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="fbd1748d5de645a783cada390c5f7033" class="chart-container" style="width:1500px; height:1200px;"></div>
+    <script>
+        var chart_fbd1748d5de645a783cada390c5f7033 = echarts.init(
+            document.getElementById('fbd1748d5de645a783cada390c5f7033'), 'white', {renderer: 'canvas'});
+        var option_fbd1748d5de645a783cada390c5f7033 = {
+    "backgroundColor": "#E0EEEE",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u4e16\u754c\u5730\u56fe",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "China",
+                    "value": 148
+                },
+                {
+                    "name": "Canada",
+                    "value": 87
+                },
+                {
+                    "name": "Brazil",
+                    "value": 129
+                },
+                {
+                    "name": "Russia",
+                    "value": 148
+                },
+                {
+                    "name": "United States",
+                    "value": 69
+                },
+                {
+                    "name": "Africa",
+                    "value": 36
+                },
+                {
+                    "name": "Germany",
+                    "value": 48
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4e16\u754c\u5730\u56fe"
+            ],
+            "selected": {
+                "\u4e16\u754c\u5730\u56fe": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u4e16\u754c\u5730\u56fe\u5b9e\u4f8b",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "visualMap": {
+        "show": false,
+        "type": "continuous",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_fbd1748d5de645a783cada390c5f7033.setOption(option_fbd1748d5de645a783cada390c5f7033);
+    </script>
+</body>
+</html>
